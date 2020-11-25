@@ -19,32 +19,31 @@
     <select />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="49a50c75-e3b9-4950-a159-3d40222fe4a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-=======
-    <list default="true" id="cbd3680d-611b-4825-9035-90b864a301d0" name="Default Changelist" comment="Start">
+    <list default="true" id="3d9a7ac5-4dc4-4453-bc77-326834598f0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/firma/flota/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Aplikacje-WWW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aplikacje-WWW.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> 801b5ed580b4af03e45049547c18478b1093ce23
+      <change beforePath="$PROJECT_DIR$/firma/flota/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/flota/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-<<<<<<< HEAD
-  <component name="ProjectId" id="1iXuz9aK2wW8CxoPss39V5X0dbC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-=======
-  <component name="ProjectId" id="1iXvZdVbmjwPjJCwG1I8X6lywyV" />
->>>>>>> 801b5ed580b4af03e45049547c18478b1093ce23
+  <component name="ProjectId" id="1kSYI5Rz5UFngczTZNUKrQWAIv6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,55 +51,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Aplikacje-WWW" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
-      <changelist id="49a50c75-e3b9-4950-a159-3d40222fe4a6" name="Default Changelist" comment="" />
-      <created>1602066518037</created>
+      <changelist id="3d9a7ac5-4dc4-4453-bc77-326834598f0f" name="Default Changelist" comment="" />
+      <created>1605695378467</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602066518037</updated>
+      <updated>1605695378467</updated>
     </task>
-=======
-      <changelist id="cbd3680d-611b-4825-9035-90b864a301d0" name="Default Changelist" comment="" />
-      <created>1602066808783</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1602066808783</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Start">
-      <created>1602067320093</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1602067320093</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
->>>>>>> 801b5ed580b4af03e45049547c18478b1093ce23
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,41 +72,5 @@
         </entry>
       </map>
     </option>
-<<<<<<< HEAD
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="598" y="154" key="FileChooserDialogImpl" timestamp="1603571900484">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="598" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603571900484" />
-    <state width="1364" height="194" key="GridCell.Tab.0.bottom" timestamp="1603277931483">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1364" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603277931483" />
-    <state width="1364" height="194" key="GridCell.Tab.0.center" timestamp="1603277931483">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1364" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603277931483" />
-    <state width="1364" height="194" key="GridCell.Tab.0.left" timestamp="1603277931483">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1364" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603277931483" />
-    <state width="1364" height="194" key="GridCell.Tab.0.right" timestamp="1603277931483">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1364" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603277931483" />
-=======
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="519" y="237" key="Vcs.Push.Dialog.v2" timestamp="1602067331209">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="519" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602067331209" />
->>>>>>> 801b5ed580b4af03e45049547c18478b1093ce23
   </component>
 </project>
