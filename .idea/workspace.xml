@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d9a7ac5-4dc4-4453-bc77-326834598f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/firma/flota/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Aplikacje-WWW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aplikacje-WWW.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firma/flota/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firma/flota/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/flota/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firma/firma/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/firma/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firma/firma/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/firma/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firma/flota/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/flota/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,5 +70,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
