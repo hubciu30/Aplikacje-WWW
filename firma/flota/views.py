@@ -1,9 +1,11 @@
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
 from .models import Osoba, Samochod
-from .serializers import OsobaSerializer, SamochodSerializer
+from .serializers import OsobaSerializer, SamochodSerializer, UserSerializer
 from rest_framework import generics
 from django_filters import DateTimeFilter, NumberFilter, FilterSet
+from rest_framework import permissions
+from django.contrib.auth.models import User
 
 
 class OsobaFilter(FilterSet):
@@ -22,6 +24,7 @@ class OsobaList(generics.ListCreateAPIView):
     ordering_fields = ['zarobki', 'nazwisko', 'data_urodzenia']
     filter_fields = ['zarobki']
 
+
 class OsobaDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Osoba.objects.all()
     serializer_class = OsobaSerializer
@@ -33,11 +36,27 @@ class SamochodList(generics.ListCreateAPIView):
     serializer_class = SamochodSerializer
     name = 'samochod-list'
     search_fields=['marka', 'model']
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+    def perform_create(self, serializer):
+        serializer.save(wlasciciel_uzytkownik=self.request.user)
 
 class SamochodDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Samochod.objects.all()
     serializer_class = SamochodSerializer
     name = 'samochod-detail'
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+
+
+class UserList(generics.ListAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    name = 'user-list'
+
+
+class UserDetail(generics.RetrieveAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    name = 'user-detail'
 
 
 class ApiRoot(generics.GenericAPIView):
@@ -45,7 +64,8 @@ class ApiRoot(generics.GenericAPIView):
 
     def get(self, request, *args, **kwargs):
         return Response({'osoby': reverse(OsobaList.name, request=request),
-                         'samochody':reverse(SamochodList.name, request=request),
+                         'samochody': reverse(SamochodList.name, request=request),
+                         'uzytkownicy': reverse(UserList.name, request=request),
                          })
 
 
