@@ -3,15 +3,14 @@ from .models import Client, Video
 from django.contrib.auth.models import User
 
 class ClientSerializer(serializers.HyperlinkedModelSerializer):
-    samochody= serializers.HyperlinkedRelatedField(many=True, read_only=True, view_name='samochod-detail')
+    videos = serializers.HyperlinkedRelatedField(many=True, read_only=True, view_name='video-detail')
     class Meta:
         model = Client
         fields=['id', 'url', 'mail', 'firstname', 'surname', 'birthday', 'videos']
 
 
 class VideoSerializer(serializers.HyperlinkedModelSerializer):
-    wlasciciel = ClientSerializer()
-    wlasciciel_uzytkownik = serializers.ReadOnlyField(source='wlasciciel_uzytkownik.username')
+    owner = ClientSerializer()
     class Meta:
         model = Video
         fields = ['id', 'url', 'title', 'year', 'director', 'type', 'owner']
