@@ -12,6 +12,10 @@ class ClientFilter(FilterSet):
     from_birthday = DateTimeFilter( field_name='birthday', lookup_expr='gte')
     to_birthday = DateTimeFilter( field_name='birthday', lookup_expr='lte')
 
+class ViedoFilter(FilterSet):
+    from_year = NumberFilter(field_name='year', lookup_expr='gte')
+    to_year = NumberFilter(field_name='year', lookup_expr='lte')
+
 class ClientList(generics.ListCreateAPIView):
     queryset = Client.objects.all()
     serializer_class = ClientSerializer
@@ -29,7 +33,9 @@ class ClientDetail(generics.RetrieveUpdateDestroyAPIView):
 class VideoList(generics.ListCreateAPIView):
     queryset = Video.objects.all()
     serializer_class = VideoSerializer
+    ordering_fields = ['title', 'year', 'director', 'type']
     name = 'video-list'
+    filter_class = ViedoFilter
     search_fields=['title', 'type', 'year']
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 

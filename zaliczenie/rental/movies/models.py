@@ -16,3 +16,6 @@ class Video(models.Model):
     director = models.CharField(max_length=60, null=True)
     type = models.CharField(max_length=60, null=True)
     owner = models.ForeignKey(Client, related_name='videos', on_delete=models.SET_NULL, null=True)
+
+    def __str__(self):
+        return str(self.title) + ' [' + str(self.year) + '] ' + str(self.type)
