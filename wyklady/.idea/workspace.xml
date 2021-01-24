@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d9a7ac5-4dc4-4453-bc77-326834598f0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Aplikacje-WWW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aplikacje-WWW.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firma/firma/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/firma/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firma/firma/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/firma/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firma/flota/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/flota/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firma/flota/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/flota/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firma/flota/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/flota/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firma/flota/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/flota/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firma/flota/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/firma/flota/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +45,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Scripts/python.exe" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,5 +76,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1058" y="224" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1608118567413" />
+    <state x="262" y="134" key="FileChooserDialogImpl" timestamp="1611490807448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="262" y="134" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611490807448" />
+    <state x="261" y="64" key="SettingsEditor" timestamp="1611490889957">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="64" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611490889957" />
   </component>
 </project>
