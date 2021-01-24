@@ -19,7 +19,7 @@ class ViedoFilter(FilterSet):
 class ClientList(generics.ListCreateAPIView):
     queryset = Client.objects.all()
     serializer_class = ClientSerializer
-    filter_class = ClientFilter
+    filterset_class = ClientFilter
     name = 'client-list'
     search_fields=['firstname', 'surname']
     ordering_fields = ['surname', 'birthday']
@@ -35,7 +35,7 @@ class VideoList(generics.ListCreateAPIView):
     serializer_class = VideoSerializer
     ordering_fields = ['title', 'year', 'director', 'type']
     name = 'video-list'
-    filter_class = ViedoFilter
+    filterset_class = ViedoFilter
     search_fields=['title', 'type', 'year']
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
